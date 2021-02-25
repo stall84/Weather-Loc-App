@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Maps App</title>
+    <script src="dist/bundle.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="app.css" />
+
+</head>
+<body>
+    <header>
+        <h1>WeatherLoc</h1>
+    </header>
+    <div id="map">
+        <p>Please enter a location!</p>
+    </div>
+
+    <form>
+        <input type="text" id="address" />
+        <button type="submit">SEARCH LOCATION</button>
+    </form>
+    
+    <div id="weather" >
+        <div id="day1" class="weatherbox">
+            <img id="icon1">
+            <h3 id="desc1" class="desc"></h3>
+            <h3 id="date1" class="date"></h3>
+            <h3 id="high1" class="high"></h3>
+            <h3 id="low1" class="low"></h3>
+        </div>
+        <div id="day2" class="weatherbox">
+            <img id="icon2">
+            <h3 id="desc2" class="desc"></h3>
+            <h3 id="date2" class="date"></h3>
+            <h3 id="high2" class="high"></h3>
+            <h3 id="low2" class="low"></h3>
+        </div>
+        <div id="day3" class="weatherbox">
+            <img id="icon3">
+            <h3 id="desc3" class="desc"></h3>
+            <h3 id="date3" class="date"></h3>
+            <h3 id="high3" class="high"></h3>
+            <h3 id="low3" class="low"></h3> 
+        </div>
+        
+    </div>
+    <div >
+        <img id="iconTest" >
+        <!-- <img src="./src/images/icons/a02n.png" width="80" height="80"> -->
+    </div>
+</body>
+</html>
